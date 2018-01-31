@@ -1,0 +1,54 @@
+{
+  "_id" : "aei1",
+  "name" : "Maison Rostang",
+  "adresse" : {
+    "numero" : 20,
+    "rue" : "Rue Rennequin",
+    "codePostal" : 75017,
+    "ville": "Paris"
+  },
+  "chef" :
+  {
+    "nom" : "Beaumann",
+    "prenom" : "Ncolas",
+  },
+  "promotions":[
+    {
+      "menu" : "prestige 115€",
+      "prix": 115,
+      "quand" : "midi"
+    },
+    {
+      "menu" : "prestige 195€",
+      "prix": 195,
+      "quand" : "soir"
+    },
+    {
+      "menu" : "St Valentin",
+      "prix": 295,
+      "quand" : "soir le 14/02"
+    }
+  ]
+}
+
+{
+  "_id" : "aro1",
+  "name" : "Ayo Izakaya",
+  "adresse" : {
+    "numero" : 12,
+    "rue" : "Rue de Caumartin",
+    "codePostal" : 75009,
+    "ville": "Paris"
+  },
+  "chef" :
+  {
+    "nom" : "Nanaumi",
+    "prenom" : "Yasuo",
+  },
+  "promotions":[
+    {
+      "menu" : "-30% sur la carte ",
+      "quand" : "tout le temps"
+    }
+  ]
+}

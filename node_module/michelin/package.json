@@ -1,0 +1,56 @@
+{
+  "_id" : 1,
+  "name" : "L'arpège",
+  "adresse" : {
+    "numero" : 3,
+    "rue" : "Rue Arsène Houssaye",
+    "codePostal" : 75008,
+    "ville": "Paris"
+  },
+  "chef" :
+  {
+    "nom" : "Passard",
+    "prenom" : "Alain",
+    "commentaire" : "Je cultive mes légumes afin de pouvoir raconter une histoire de la graine à l’assiette"
+  },
+  "prix" : 420,
+  "specialite" : "Terre & mer",
+  "infoPratique" : "mkSJDBV",
+  "nbrEtoile" : 1,
+  "coordonnees" :
+  {
+    "telephone" : "0606060606",
+    "site" : "resto.fr",
+    "mail" : "resto@bla.com"
+  }
+}
+{
+  "_id" : 2,
+  "name" : "Maison Rostang",
+  "adresse" : {
+    "numero" : 20,
+    "rue" : "Rue Rennequin",
+    "codePostal" : 75017,
+    "ville": "Paris"
+  },
+  "chef" :
+  {
+    "nom" : "Beaumann",
+    "prenom" : "Nicolas",
+    "commentaire" : "J'attache beaucoup d'importance au jus, une alliance"
+  },
+  "prix" :
+  {
+    "min" : 90,
+    "max" : 225
+  },
+  "specialite" : "Classique, Gastronomique",
+  "infoPratique" : "blablbablba",
+  "nbrEtoile" : 2,
+  "coordonnees" :
+  {
+    "telephone" : "0147634077",
+    "site" : "",
+    "mail" : ""
+  }
+}
