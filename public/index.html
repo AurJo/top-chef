@@ -31,18 +31,26 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       <h3>Find a starred restaurant with us</h3>
       <div class="w3-row-padding" style="margin:0 -16px;">
         <div class="w3-half">
-          <label>Nom</label>
+          <label>Name</label>
           <input class="w3-input w3-border" type="text" placeholder="Nom du restaurant">
         </div>
 
       </div>
       <p><button class="w3-button w3-dark-grey">Search and find promotions</button></p>
+      <p>Sorry, this button is broken ... </p>
     </div>
   </div>
 </header>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px;">
+
+  <!-- les resultats-->
+  <div class="w3-container w3-margin-top">
+    <h3> All our restaurants </h3>
+  </div>
+  <button id="charger" class="w3-bar-item w3-button w3-text-red w3-hover-red"> See results </button>
+  <div id="restos" class="w3-container w3-center w3-opacity w3-margin-bottom"> Click on "See results" to print all restaurants and their currents deals </div>
 
   <!-- Good offers -->
   <div class="w3-container w3-margin-top">
@@ -116,6 +124,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <p>Powered by Aurélie</p>
 </footer>
 
+<script src="index.js"></script>
+
 <script>
 // Tabs
 function openLink(evt, linkName) {
@@ -134,6 +144,8 @@ function openLink(evt, linkName) {
 // Click on the first tablink on load
 document.getElementsByClassName("tablink")[0].click();
 </script>
+
+
 
 </body>
 </html>
